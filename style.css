@@ -23,3 +23,26 @@ a.home:link, a.home:visited {
   a.panel:hover, a.panel:active {
     background-color: rgb(43, 0, 255);
   }
+
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-social-links a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-social-links a:hover {
+    text-decoration: underline;
+}
