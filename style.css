@@ -1,4 +1,4 @@
-a:link, a:visited {
+a.home:link, a.home:visited {
     background-color: #f44336;
     color: white;
     padding: 14px 25px;
@@ -7,6 +7,19 @@ a:link, a:visited {
     display: inline-block;
   }
   
-  a:hover, a:active {
+  a.home:hover, a.home:active {
     background-color: red;
+  }
+
+  a.panel:link, a.panel:visited {
+    background-color: rgb(43, 0, 255);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a.panel:hover, a.panel:active {
+    background-color: rgb(43, 0, 255);
   }
