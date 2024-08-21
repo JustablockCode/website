@@ -34,6 +34,16 @@ nav a {
   border-radius: 5px;
 }
 
+#donate {
+
+  margin: 0 auto; /* Reduced margin */
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 2px solid #407b57;
+  border-radius: 5px;
+  max-width: 300px;
+}
+
 nav a:hover {
   background-color: #2f5943;
 }
